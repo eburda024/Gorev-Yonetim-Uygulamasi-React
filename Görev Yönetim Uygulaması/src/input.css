@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    transition: background-color 0.5s, color 0.5s;
+  }
+  
+  html.dark {
+    background-color: #1a202c;
+    color: #a0aec0;
+  }
+  
+  html.dark .bg-white {
+    background-color: #2d3748;
+  }
+  
+  html.dark .bg-gray-100 {
+    background-color: #4a5568;
+  }
+  
+  html.dark .bg-gray-300 {
+    background-color: #718096;
+  }
